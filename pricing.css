@@ -1,0 +1,112 @@
+body{ 
+
+    background: url(./bg-bottom.svg)0 44% no-repeat,url(./bg-top.svg)100% 0 no-repeat;
+    overflow: hidden;
+
+}
+
+
+.item-1{ 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 190px;
+    left: 200px;
+    background-color: rgb(221, 218, 218);
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+button{
+    background-color: blue;
+    width: 250px; height: 40px;
+    border-radius: 8px;
+}
+.item-2 button{
+    background-color: white;
+}
+h1{ margin: 5px;
+font-size: 50px;}
+h2{
+    margin: 5px;
+    font-size: 15px;
+}
+.item-2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 500px;
+    top:-220px;
+    background-color: rgb(107, 98, 238);
+    padding: 50px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+.item-3{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+top: -630px;
+left: 800px;
+    background-color: rgb(204, 201, 201);
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+.logo{ gap: 10px;
+    position: absolute;
+top: 10px;
+left: 480px;
+display: flex;
+flex-direction: column;
+
+    box-sizing: border-box;
+
+
+    
+}
+.logo h2{
+    position: relative;
+    left: 30px;
+}
+.content-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.box{
+    width: 100px;
+    height: 50px;   
+    background-color: rgb(51, 54, 228);
+    position: relative;
+    border-radius: 50px;
+}
+.swich{
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+
+ 
